@@ -32,19 +32,19 @@ class Personnage{//La classe définit le personnage
             console.log(`Santé mentale : ${this.santementale}`);
             console.log("");
         }
-        if (1 == iMusique){//1 correpond à l'index de musique Hasagi - Nalfeïnn
+        if (1 == iMusique){//1 correpond à l'index de musique The kraken - Hans Zimmer
             console.log(`A la radio il y a ${listeMusique[iMusique]}`);
             this.feu -=1;
             console.log(`Il reste, ${this.feu} feu(x) rouge(s).`);
             console.log("");
         }
-        if (2 == iMusique){//2 correpond à l'index de musique Brindille - Nalfeïnn
+        if (2 == iMusique){//2 correpond à l'index de musique In The Final - Mario & Luigi
             console.log(`A la radio il y a ${listeMusique[iMusique]}`);
             this.feu -=1;
             console.log(`Il reste, ${this.feu} feu(x) rouge(s).`);
             console.log("");
         }   
-        if (3 == iMusique){//3 correpond à l'index de musique Complainte d'un main teemo - Nalfeïnn
+        if (3 == iMusique){//3 correpond à l'index de musique Annunaki - Vald
             console.log(`A la radio il y a ${listeMusique[iMusique]}`);
             this.feu -=1;
             console.log(`Il reste, ${this.feu} feu(x) rouge(s).`);
@@ -59,6 +59,6 @@ class Personnage{//La classe définit le personnage
     }
 }
 
-let listeMusique=["Anissa - Wejdene","Hasagi - Nalfeïnn","Brindille - Nalfeïnn","Complainte d'un main teemo - Nalfeïnn","Gods - NewJeans"];
+let listeMusique=["Anissa - Wejdene","The kraken - Hans Zimmer","In The Final - Mario & Luigi","Annunaki - Vald","Gods - NewJeans"];
 let Coco = new Personnage("Coco", 10);
 Coco.Deroulement();
